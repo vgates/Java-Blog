@@ -60,3 +60,5 @@ At this point the following things happen internally
 
 - **Place the created node**
   Say if we got the index as 5. But in bucket-5 we already have a node. Hence there is a collision. What we do is we link the node(apple) with the newly created node(mango), i.e. we place the address of mango node in the next portion of apple node.
+
+![image](https://user-images.githubusercontent.com/39855032/160325999-d1687fe4-3509-41d8-9b9b-032ae5a13980.png)
